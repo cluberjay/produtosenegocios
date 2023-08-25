@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-image: url('img/background7.jpg');
+    background-size: contain;
+}
+
+#head  {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+   
+}
+
+
+#text-marketing{
+    margin: 0;
+    padding: .5rem;
+   font-size: x-large;
+   color: #fff;
+   background: linear-gradient(to top , rgba(0,0,0,.50) 0%, rgba(0,0,0,.15 ) 100%);
+}
+
+
+
+#main-container , #form , #imgs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+#form {
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+#form input ,button,select {
+    height: 2rem;
+    border-radius: 25px;
+    border: 1.5px solid gray;
+}
+
+input::placeholder {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+
+
+#button {
+    width: 80%;
+    height: 3rem;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color:  #25D366;
+}
+
+#button-icon {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+/*.image {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    margin-left: 40px;
+    background-image: url("img/trucks.jpg");
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}*/
+
+#footer {
+    height: auto;
+    margin-top: 1rem;
+    border-top: 5px solid gainsboro;
+    border-bottom: 5px solid gainsboro ;
+    background-color: #ffc400;
+}
+
+#h2-footer {
+   margin-top: 8rem;
+   text-align: center;
+}
+
+#midias-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.container-itens-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.text-footer {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-footer {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: xx-large;
+    color:  #ffc400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
