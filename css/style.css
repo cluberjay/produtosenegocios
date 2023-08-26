@@ -75,10 +75,6 @@ input::placeholder {
     font-size: 25px;
     font-weight: bold;
 }
-
-
-
-
 /*.image {
     display: flex;
     flex-direction: column;
@@ -91,7 +87,6 @@ input::placeholder {
     background-size: 250px 250px;
     background-repeat: no-repeat;
 }*/
-
 #footer {
     height: auto;
     margin-top: 1rem;
@@ -110,7 +105,13 @@ input::placeholder {
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 1.5rem;
-    
+}
+
+#logo {
+   width:100vw;
+   height: 100px;
+   background-image: url("img/logomarca.jpg")
+   background-size: 100% 100%;
 }
 
 .container-itens-footer {
