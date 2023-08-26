@@ -8,6 +8,7 @@ body {
     margin: 0;
     background-image: url('img/background7.jpg');
     background-size: contain;
+    background-color: black;
 }
 
 #head  {
