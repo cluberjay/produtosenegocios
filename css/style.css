@@ -6,7 +6,7 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
-    background-image: url('img/background7.jpg');
+    background-image: url("img/background7.jpg");
     background-size: contain;
 }
 
@@ -110,7 +110,7 @@ input::placeholder {
 #logo {
    width:100vw;
    height: 100px;
-   background-image: url("img/logomarca.jpg")
+   background-image: url("img/logomarca.jpg");
    background-size: 100% 100%;
 }
 
