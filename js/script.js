@@ -20,7 +20,6 @@ const option5 = document.querySelector('#option5')
 
 option1.addEventListener('click' , () => {
         containerPoptions.classList.add('hidden')
-        alert('Produto Selecionado , agora clique em ok e depois  no botão verde!')
         if(option1.innerHTML === 'Pá carregadeira' ){
             maquina = 'Pá carregadeira'
             console.log(maquina)
@@ -30,7 +29,6 @@ option1.addEventListener('click' , () => {
 
 option2.addEventListener('click' , () => {
     containerPoptions.classList.add('hidden')
-    alert('Produto Selecionado , agora clique em ok e depois  no botão verde!')  
     if(option2.innerHTML === 'Retrô escavadeira' ){
         maquina = 'Retrô escavadeira'
         console.log(maquina)
@@ -40,7 +38,6 @@ option2.addEventListener('click' , () => {
 
 option3.addEventListener('click' , () => {
     containerPoptions.classList.add('hidden')
-    alert('Produto Selecionado , agora clique em ok e depois  no botão verde!')   
     if(option3.innerHTML === 'Escavadeira Hidráulica' ){
         maquina = 'Escavadeira Hidráulica'
         console.log(maquina)
@@ -50,7 +47,6 @@ option3.addEventListener('click' , () => {
 
 option4.addEventListener('click' , () => {
     containerPoptions.classList.add('hidden')
-    alert('Produto Selecionado , agora clique em ok e depois  no botão verde!')   
     if(option4.innerHTML === 'Rolo compactador' ){
         maquina = 'Rolo compactador'
         console.log(maquina)
@@ -60,7 +56,6 @@ option4.addEventListener('click' , () => {
 
 option5.addEventListener('click' , () => {
     containerPoptions.classList.add('hidden')
-    alert('Produto Selecionado , agora clique em ok e depois  no botão verde!')   
     if(option5.innerHTML === 'Pranchas' ){
         maquina = 'Pranchas'
         console.log(maquina)
