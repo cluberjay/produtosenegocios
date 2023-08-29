@@ -95,6 +95,19 @@ input::placeholder {
     font-weight: bold;
 }
 
+#button:active {
+    box-shadow: 0px 10px 10px #25D366;
+    border: none;
+   
+}
+
+.bi-whatsapp:active {
+    color: #25D366; 
+}
+
+.bi-instagram:active {
+    color: #000; 
+}
 
 
 
@@ -176,5 +189,92 @@ input::placeholder {
 
 a {
     text-decoration: none;
+}
+
+@media (min-width: 992px){
+
+    body {
+        width: 100%;
+        height: 600px;
+        margin: 0;
+        display: inline-flex;
+        flex-direction: row-reverse;
+        background-size: 1400px 100%;
+        background-repeat: no-repeat;
+    }
+
+    #text-marketing  {
+        width: 40%; 
+        height: 600px;
+        margin: 0;
+        line-height: 10rem;  
+        background: linear-gradient(to top , rgba(0,0,0,.50) -50%, rgba(0,0,0,.15 ) 100%);
+    }
+    
+    #main-container {
+        width: 100%;
+        max-width: 50%;
+        position: absolute;
+        top: 10rem;
+        left: 700px;
+    }
+
+    #options {
+        width: 500px;
+        text-align: center;
+        letter-spacing: 5px;
+        font-weight: bolder;
+        font-size: larger;
+        color: #fff;
+        background: linear-gradient(to top , rgba(0,0,0,.50) 100%, rgba(0,0,0,.15 ) 100%);
+    }
+
+    #container-options:hover ,#button:hover ,.bi:hover  {
+       cursor: pointer;
+    }
+
+    #button {
+        width: 50%;
+        box-shadow: 0 0 0 #25D366;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #button:hover {
+        box-shadow: 0px 10px 10px #25D366;
+        border: none;
+       
+    }
+
+    .bi-whatsapp:hover {
+        color: #25D366; 
+    }
+  
+    .bi-instagram:hover {
+        color: #000; 
+    }
+    
+    #footer {
+        position: relative;
+        top: -5rem;
+        left: 0;
+        width: 25vw;
+        height: 600px;
+        border: none;
+    }
+
+    #logo{
+        position: relative;
+        width: 20vw;
+        height: 100px;
+        top: 10px;
+        right: -900px;
+        background-image: url("../img/logomarca.jpg");
+        background-size: 100% 100px;
+    }
+
+    #h2-footer {
+        margin-top: -40px;
+        text-align: center;
+     }
 }
 
