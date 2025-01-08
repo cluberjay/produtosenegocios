@@ -77,5 +77,5 @@ button.addEventListener('click' , ()=>{
          formKeys[1] = propertKeys[1] + ':' + ' ' + formDatas [1] + ' ' +  propertKeys[2]  + ':' + ' ' + produto[0]
     }
    
-   window.open('https://wa.me/14997440111?text=' + formKeys)
+   window.open('https://wa.me/14996797612?text=' + formKeys)
 })
